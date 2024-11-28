@@ -7,6 +7,13 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
+
+		// A single portfolio piece icon
+		interface PieceLink {
+			title: string,
+			description: string,
+			//imagePath: string
+		}
 	}
 }
 

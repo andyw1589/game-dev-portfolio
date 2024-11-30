@@ -17,8 +17,7 @@
     ></script>
 </svelte:head>
 
-<div id="content-wrap">
+<div id="content-wrap" class="mb-5">
     {@render children()}
-    <div id="push"></div>
 </div>
 <footer id="footer" class="text-center">Copyright (C) Andy Wang</footer>

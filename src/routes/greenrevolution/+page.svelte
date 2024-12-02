@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <h1 class="text-center my-4 px-4">Green Revolution</h1>
 <main class="w-50 mx-auto">
     <p>
@@ -25,7 +29,7 @@
     </p>
     <p>
         <a
-            href="/"
+            href="{base}/"
         >
             Go back
         </a>

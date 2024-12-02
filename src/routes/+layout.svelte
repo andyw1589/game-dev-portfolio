@@ -1,4 +1,5 @@
 <script>
+     import { base } from '$app/paths';
     let { children } = $props();
 </script>
 
@@ -15,6 +16,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="{base}/shared.css" />
 </svelte:head>
 
 <div id="content-wrap" class="mb-5">

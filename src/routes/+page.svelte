@@ -1,5 +1,6 @@
 <script lang="ts">
     import PieceLink from "../components/PieceLink.svelte";
+    import { base } from '$app/paths';
 
     let pieces: App.PieceLink[] = [
         {
@@ -13,7 +14,7 @@
             description:
                 "Learn about the impacts of technology on global food production.",
             imageSrc: "/icons/greenrevolution.png",
-            link: "greenrevolution"
+            link: base + "/greenrevolution"
         },
         {
             title: "Guess the Coaster",
@@ -44,7 +45,7 @@
             description:
                 "A turn-based RPG on Roblox. Find the legendary artifact!",
             imageSrc: "/icons/bloxy.png",
-            link: "bloxycola"
+            link: base + "/bloxycola"
         },
     ];
 </script>
@@ -55,7 +56,7 @@
         <PieceLink
             title={piece.title}
             description={piece.description}
-            imageSrc={piece.imageSrc}
+            imageSrc={base + piece.imageSrc}
             link={piece.link}
         />
     {/each}

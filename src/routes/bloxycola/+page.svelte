@@ -1,3 +1,7 @@
+<script>
+     import { base } from '$app/paths';
+</script>
+
 <h1 class="text-center my-4 px-4">The Quest for the Legendary Bloxy Cola</h1>
 <main class="w-50 mx-auto">
     <p>
@@ -37,6 +41,6 @@
         </a>
     </p>
     <p>
-        <a href="/"> Go back </a>
+        <a href="{base}/"> Go back </a>
     </p>
 </main>

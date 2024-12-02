@@ -3,7 +3,7 @@
 </script>
 
 <h1 class="text-center my-4 px-4">Green Revolution</h1>
-<main class="w-50 mx-auto">
+<main class="piece-body">
     <p>
         This is an educational mobile app in which you simulate being a Punjabi
         farmer, and you have to make choices to maximize your crop yield. It

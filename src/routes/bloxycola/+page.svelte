@@ -3,7 +3,7 @@
 </script>
 
 <h1 class="text-center my-4 px-4">The Quest for the Legendary Bloxy Cola</h1>
-<main class="w-50 mx-auto">
+<main class="piece-body">
     <p>
         This is a solo passion project I've been working on for a while now, and
         still am today. It's a turn-based RPG inspired by Pokemon where you

@@ -1,8 +1,8 @@
 <script>
-    let { title, description, imageSrc } = $props();
+    let { title, description, imageSrc, link } = $props();
 </script>
 
-<a href="https://google.ca">
+<a href={link}>
     <div class="p-3 rounded">
         <h4 class="hovertext">{title}</h4>
         <p class="hovertext">{description}</p>

@@ -12,7 +12,8 @@ declare global {
 		interface PieceLink {
 			title: string,
 			description: string,
-			imageSrc: string
+			imageSrc: string,
+			link: string
 		}
 	}
 }

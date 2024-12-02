@@ -51,6 +51,17 @@
 </script>
 
 <h1 class="text-center my-4 px-4">My Game Development Portfolio</h1>
+<nav class="text-center mb-4">
+    <a href="https://www.linkedin.com/in/andyw1589/" target="_blank" aria-label="my linkedin">
+        <i class="fab fa-linkedin" style="font-size:36px; color:black"></i>
+    </a>
+    <a href="https://github.com/andyw1589/" target="_blank" aria-label="my github">
+        <i class="fab fa-github" style="font-size:36px; color:black"></i>
+    </a>
+    <a href="https://gator-gaming.itch.io/" target="_blank" aria-label="my itch.io">
+        <i class="fab fa-itch-io" style="font-size:36px; color:black"></i>
+    </a>
+</nav>
 <main id="portfolio-grid">
     {#each pieces as piece (piece.title)}
         <PieceLink
